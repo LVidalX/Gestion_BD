@@ -2,8 +2,6 @@
 ## Funcion count
 ## Creación de la tabla
 
-
-
 ```
 CREATE TABLE IF NOT EXISTS client (
       id SERIAL,
@@ -16,7 +14,8 @@ CREATE TABLE IF NOT EXISTS client (
 );
 
 ```
-### Inserción de datos 
+
+## Inserción de datos 
 
 ```
 INSERT INTO client(id, nui, full_name, phone, type_of_client, city, credit_limit)
@@ -32,7 +31,7 @@ INSERT INTO client(id, nui, full_name, phone, type_of_client, city, credit_limit
              (1010, '631487952', 'Mark Taylor', '2885330197', 'Corporativo', 'Quito', 55000);
 ```
 
-### Consulta de Datos
+## Consulta de Datos
 
 ### Mostrar el total de nombres.
 Para mostrar todos los nombres usamos la funcion COUNT() pasandole como parametro el campo, en este campo *full_name*
@@ -74,3 +73,26 @@ SELECT COUNT (DISTINCT City)
 FROM client;
 ```
 
+
+## WHERE
+### Multiples criterios AND, OR, BETWEEN.
+
+## SELECT
+### Select_1
+```
+SELECT * FROM product
+WHERE category = 'Gaming' OR category = 'Audio';
+```
+### Select_2
+
+```
+SELECT * FROM product
+WHERE price > 100 AND price < 500 AND country_of_origin = 'Japan';
+```
+
+### Select_3
+
+```
+SELECT * FROM product
+WHERE price > 1000 AND (country_of_origin = 'Japan' OR country_of_origin 'USA');
+```
