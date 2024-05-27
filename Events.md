@@ -1,6 +1,6 @@
-Base de datos Eventos
-
-Script DDL 
+# Base de datos Eventos (SEMANA 7)
+## Script DDL 
+```
 CREATE TABLE events (
      id SERIAL PRIMARY KEY,
      description TEXT,
@@ -36,8 +36,11 @@ CREATE TABLE _record (
      FOREIGN KEY (conference_id) REFERENCES conferences(id)
 );
 
+```
 
-Sentencias 
+## Sentencias
+### Realizar 5 consultas con Where y Order by
+
 ![image](https://github.com/LVidalX/Gestion_BD/assets/116664703/9ed828f9-2769-46de-926b-b716a80a8cd2)
 
 ![image](https://github.com/LVidalX/Gestion_BD/assets/116664703/52f52512-119b-44b4-90ab-eab9b31e807e)
