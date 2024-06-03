@@ -78,7 +78,7 @@ FROM client;
 ### Multiples criterios AND, OR, BETWEEN.
 
 
-#TA_S8
+# TA_S8
 
 ## CONSULTAS
 
