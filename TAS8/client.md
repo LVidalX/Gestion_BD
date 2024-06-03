@@ -74,7 +74,7 @@ SELECT COUNT (full_name) AS total_names
 FROM client;
 ```
 
-<img src="">
+<img src="\capturas\Consulta_1.png">
 
 
 ### Count City
@@ -84,6 +84,7 @@ SELECT COUNT (DISCTINCT city) AS total_cities
 FROM client;
 
 ```
+<img src='\capturas\Consulta_2.png'>
 
 ### Count Phone
 
@@ -92,12 +93,17 @@ SELECT COUNT (phone)
 FROM client;
 ```
 
-### Count Phone and names
+<img src='\capturas\Consulta_3.png'>
+
+### Count Phone and full_name
 
 ```
-SELECT COUNT (phone, names)
-FROM client;
+SELECT COUNT(*) AS total_rows
+FROM client
+WHERE phone IS NOT NULL AND fullname IS NOT NULL;
 ```
+
+<img src='\capturas\Consulta_4.png'>
 
 ### Count Cities with Distinct
 
@@ -106,10 +112,7 @@ SELECT COUNT (DISTINCT City)
 FROM client;
 ```
 
-
-## WHERE
-### Multiples criterios AND, OR, BETWEEN.
-
+<img src='\capturas\Consulta_5.png'>
 
 
 # TA_S8
