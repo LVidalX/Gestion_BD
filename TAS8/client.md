@@ -80,19 +80,72 @@ FROM client;
 ## SELECT
 ### Select_1
 ```
-SELECT * FROM product
-WHERE category = 'Gaming' OR category = 'Audio';
+SELECT COUNT(*) AS numero_de_productos
+FROM product
+WHERE category = 'Clothing';
+
 ```
 ### Select_2
 
 ```
-SELECT * FROM product
-WHERE price > 100 AND price < 500 AND country_of_origin = 'Japan';
+SELECT COUNT(*) AS numero_de_clientes
+FROM client
+WHERE city = 'nombre_de_la_ciudad';
+
 ```
 
 ### Select_3
 
 ```
-SELECT * FROM product
-WHERE price > 1000 AND (country_of_origin = 'Japan' OR country_of_origin 'USA');
+SELECT COUNT(*) AS numero_de_productos
+FROM product
+WHERE price BETWEEN valor_inicial AND valor_final;
+
 ```
+### Select_4
+
+```
+SELECT *
+FROM client
+WHERE city = 'nombre_de_la_ciudad' AND type_of_client = 'tipo_de_cliente';
+
+```
+
+### Select_5
+
+```
+SELECT * FROM product
+WHERE category = 'nombre_de_la_categoria' AND price > valor_especifico;
+
+```
+
+### Select_6
+
+```
+SELECT * FROM product
+WHERE year_of_production = año_especifico AND country_of_origin = 'nombre_del_pais';
+
+```
+
+### Select_7
+
+```
+SELECT *
+FROM client
+WHERE fullname LIKE 'J%';
+
+```
+
+### Select_8
+
+```
+SELECT *
+FROM client
+WHERE city LIKE '%a%';
+
+```
+
+
+
+
+
