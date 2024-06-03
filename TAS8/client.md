@@ -77,6 +77,12 @@ FROM client;
 ## WHERE
 ### Multiples criterios AND, OR, BETWEEN.
 
+
+#TA_S8
+
+## CONSULTAS
+
+
 ## SELECT
 ### Select_1
 ```
@@ -85,12 +91,14 @@ FROM product
 WHERE category = 'Clothing';
 
 ```
+<img src='\capturas\Select_1.png'>
+
 ### Select_2
 
 ```
 SELECT COUNT(*) AS numero_de_clientes
 FROM client
-WHERE city = 'nombre_de_la_ciudad';
+WHERE city = 'Italy';
 
 ```
 
