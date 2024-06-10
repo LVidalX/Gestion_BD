@@ -74,7 +74,7 @@ SELECT COUNT (full_name) AS total_names
 FROM client;
 ```
 
-<img src="\capturas\Consulta_1.png">
+<img src="\capturas\Tarea en Clase\Consulta_1.png">
 
 
 ### Count City
@@ -84,7 +84,7 @@ SELECT COUNT (DISCTINCT city) AS total_cities
 FROM client;
 
 ```
-<img src='\capturas\Consulta_2.png'>
+<img src='\capturas\Tarea en Clase\Consulta_2.png'>
 
 ### Count Phone
 
@@ -93,7 +93,7 @@ SELECT COUNT (phone)
 FROM client;
 ```
 
-<img src='\capturas\Consulta_3.png'>
+<img src='\capturas\Tarea en Clase\Consulta_3.png'>
 
 ### Count Phone and full_name
 
@@ -103,8 +103,8 @@ FROM client
 WHERE phone IS NOT NULL AND fullname IS NOT NULL;
 ```
 
-<img src='\capturas\Consulta_4.png'>
-
+<img src='\capturas\Tarea en Clase\Consulta_4.png'>
+ 
 ### Count Cities with Distinct
 
 ```
@@ -112,7 +112,7 @@ SELECT COUNT (DISTINCT City)
 FROM client;
 ```
 
-<img src='\capturas\Consulta_5.png'>
+<img src='\capturas\Tarea en Clase\Consulta_5.png'>
 
 
 # TA_S8
@@ -128,7 +128,7 @@ FROM product
 WHERE category = 'Clothing';
 
 ```
-<img src='\capturas\Select_1.png'>
+<img src='\capturas\TAS8\Select_1.png'>
 
 ### Select_2
 
@@ -138,7 +138,7 @@ FROM client
 WHERE city = 'Italy';
 
 ```
-<img src='\capturas\Select_2.png'>
+<img src='\capturas\TAS8\Select_2.png'>
 
 ### Select_3
 
@@ -149,7 +149,7 @@ WHERE price BETWEEN 50 AND 150;
 
 ```
 
-<img src='\capturas\Select_3.png'>
+<img src='\capturas\TAS8\Select_3.png'>
 
 ### Select_4
 
@@ -159,7 +159,7 @@ WHERE city = 'Ambato' AND type_of_client = 'Corporativo';
 
 ```
 
-<img src='\capturas\Select_4.png'>
+<img src='\capturas\TAS8\Select_4.png'>
 
 ### Select_5
 
@@ -169,7 +169,7 @@ WHERE category = 'nombre_de_la_categoria' AND price > valor_especifico;
 
 ```
 
-<img src='\capturas\Select_5.png'>
+<img src='\capturas\TAS8\Select_5.png'>
 
 ### Select_6
 
@@ -178,7 +178,7 @@ SELECT * FROM product
 WHERE year_of_production = 2021 AND country_of_origin = 'USA';
 
 ```
-<img src='\capturas\Select_6.png'>
+<img src='\capturas\TAS8\Select_6.png'>
 
 ### Select_7
 
@@ -189,7 +189,7 @@ WHERE fullname LIKE 'J%';
 
 ```
 
-<img src='\capturas\Select_7.png'>
+<img src='\capturas\TAS8\Select_7.png'>
 
 ### Select_8
 
@@ -200,7 +200,7 @@ WHERE city LIKE '%a%';
 
 ```
 
-<img src='\capturas\Select_8.png'>
+<img src='\capturas\TAS8\Select_8.png'>
 
 
 
