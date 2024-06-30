@@ -24,6 +24,13 @@ Base de datos: Event ||
 nombre_conferencia | codigo_registro | nombre_miembro 
 
 ```
+CREATE VIEW members_view AS 
+SELECT c.title, r.id, m.name
+FROM conferences c 
+JOIN _record r
+ON c.id = r.id
+JOIN members m 
+ON r.id = m.id;
 
 ```
 
