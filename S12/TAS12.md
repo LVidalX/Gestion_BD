@@ -18,6 +18,8 @@ ON d.id = c.id;
 
 ```
 
+<img src='\Capturas\sentencia_1.png'>
+
 ## Sentencia 2
 ### Crear una vista donde se muestre la lista de miembros registrados a las conferencias.
 Base de datos: Event ||
@@ -33,4 +35,6 @@ JOIN members m
 ON r.id = m.id;
 
 ```
+
+<img src='\Capturas\sentencia_2.png'>
 
