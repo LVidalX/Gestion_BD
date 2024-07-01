@@ -1,7 +1,10 @@
 # Subconsultas SQL
 ## Realizar 2 ejemplos de la base de datos Events con subconsultas
 
-### Ejemplo 1
+## Ejemplo 1
+
+### Descripcion
+
 
 ```
 SELECT c.title, c.speaker
@@ -14,7 +17,7 @@ FROM conferences c
 <img src='\Capturas\ejemplo_1.png'>
 
 
-### Ejemplo 2
+## Ejemplo 2
 
 ```
 SELECT m.name, m.last_name,
