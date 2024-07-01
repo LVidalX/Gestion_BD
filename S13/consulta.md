@@ -12,13 +12,19 @@ FROM conferences c
 
 ```
 
-<img src=''>
+<img src='\Capturas\ejemplo_1.png'>
 
 
 ### Ejemplo 2
 
 ```
-
+SELECT m.name, m.last_name,
+  (
+  SELECT c.id AS conference
+  FROM conferences c
+  WHERE id = 3
+  )
+FROM members m;
 ```
 
 <img src=''>
