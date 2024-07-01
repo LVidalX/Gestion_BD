@@ -27,4 +27,4 @@ SELECT m.name, m.last_name,
 FROM members m;
 ```
 
-<img src=''>
+<img src='\Capturas\ejemplo_2.png'>
